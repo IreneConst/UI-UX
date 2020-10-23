@@ -28,7 +28,7 @@ body {
 
 #yellow {
   position: absolute;
-  transform: rotate(3deg);
+  transform: rotate(-3deg);
   z-index: 3;
   background: rgb(240, 206, 114);
   border-radius: 30px;
@@ -38,7 +38,7 @@ body {
 
 #pink {
   position: absolute;
-  transform: rotate(3deg);
+  transform: rotate(-3deg);
   z-index: 2;
   background: #e6ace3;
   border-radius: 30px;
@@ -48,7 +48,7 @@ body {
 
 #white {
   position: absolute;
-  transform: rotate(3deg);
+  transform: rotate(9deg);
   z-index: 1;
   background: white;
   border-radius: 30px;
@@ -58,6 +58,7 @@ body {
 
 .container {
   position: absolute;
+  transform: rotate(-3deg);
   z-index: 4;
   background: #190839;
   border-radius: 30px;
