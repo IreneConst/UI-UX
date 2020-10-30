@@ -1,0 +1,181 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: azure;
+  background: rgb(180, 176, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 5em;
+  background: url("img/japan_1.jpg") no-repeat center center;
+  width: 1170px;
+  border-radius: 1em;
+}
+
+.block {
+  margin: 2em 4em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+}
+
+.rip {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.rip > div > img {
+  width: 2em;
+}
+
+.menu {
+  font-weight: 500;
+  width: 35em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu > div > img {
+  width: 1.7em;
+}
+
+.offer {
+  display: flex;
+  position: relative;
+}
+
+.progress {
+  width: 5em;
+  margin-top: 4em;
+  display: flex;
+
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+progress {
+  color: white;
+  height: 0.1em;
+  border: none;
+  width: 11em;
+}
+
+.number {
+  margin: 0.4em;
+  transform: rotate(-90deg);
+  font-size: 0.7em;
+}
+
+.offer__block {
+  margin-left: 7em;
+}
+
+.japan {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.video > div > img {
+  width: 3em;
+}
+
+.video {
+  font-size: 1.2em;
+  margin-top: 2em;
+  display: flex;
+}
+
+#little {
+  font-size: 0.8em;
+  text-transform: none;
+  font-weight: 500;
+}
+
+#text {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button {
+  margin-top: 2em;
+}
+
+button {
+  color: azure;
+  background: #ea2727;
+  width: 6em;
+  height: 2em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 0.2em;
+}
+
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  height: 9em;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.social > div {
+  width: 3.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.invitation__overall {
+  background-color: rgba(39, 47, 51, 0.8);
+  width: 30em;
+  margin: 0;
+  border-radius: 0 0 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottom {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.invitation__overall > div > img {
+  width: 7.5em;
+  margin: 6em;
+}
+
+.invitation__inner > div {
+  margin: 0.5em 0 0.5em 2em;
+}
+
+#more {
+  margin-bottom: 2em;
+}
+
+#slider {
+  margin-top: 1.5em;
+  display: flex;
+  width: 4em;
+  justify-content: space-between;
+  align-items: center;
+}
+#slider > img {
+  width: 0.5em;
+  opacity: 0.3;
+}
+
+#dash {
+  font-weight: 700;
+  font-size: 2em;
+}
