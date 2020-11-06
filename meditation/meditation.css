@@ -8,17 +8,6 @@ body {
   color: beige;
 }
 
-
-/* .circle {
-  position: relative;
-  z-index: 0;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-  border: rgb(240, 206, 114) 1px solid;
-  border-radius: 50%;
-} */
-
 .overall {
   position: relative;
   z-index: 0;
@@ -82,7 +71,7 @@ body {
 }
 
 .left__bottom > div {
-  height: 5rem;
+  /* height: 5rem; */
   margin-left: 7rem;
   margin-right: 4rem;
 }
@@ -148,7 +137,8 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-left: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.7rem;
+  margin-right: -1rem;
 }
 
 .flags {
@@ -156,15 +146,46 @@ body {
   height: 1rem;
 }
 
-.level__num {
-  /* position: relative;
-  z-index: 1; */
-  font-size: 10ch;
+#flag {
+  filter: invert(100%);
 }
 
-/* .level {
+.level {
+  margin-top: 2rem;
+  position: relative;
   display: flex;
-} */
+  justify-content: flex-start;
+}
+
+.num {
+  /* position: absolute; */
+  z-index: 2;
+}
+
+.circle {
+  position: absolute;
+  z-index: 0;
+  margin-left: 5rem;
+  margin-top: -2rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 2px solid rgb(240, 206, 114);
+  border-bottom-color: rgba(240, 235, 229, 0.15);
+  transform: rotate(42deg);
+}
+
+.emoji {
+  position: absolute;
+  z-index: 1;
+  margin-left: 10rem;
+  margin-top: -2rem;
+  font-size: 2.5rem;
+}
+
+.level__num {
+  font-size: 10ch;
+}
 
 .right {
   margin-left: 3rem;
@@ -249,9 +270,12 @@ body {
 
 #search {
   width: 1.5rem;
+  filter: invert(100%);
+  margin-right: 1rem;
 }
 
 #arrow {
   background: beige;
   border-radius: 50%;
+  filter: invert(100%);
 }

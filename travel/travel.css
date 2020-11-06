@@ -1,0 +1,291 @@
+body {
+  color: rgb(234, 246, 255);
+  font-family: "Poppins", sans-serif;
+  background: rgb(218, 207, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgb(235, 251, 227);
+  width: 110em;
+  height: 45em;
+  border: 0.8em solid rgb(0, 1, 0);
+  border-radius: 4em;
+  display: flex;
+}
+
+.left {
+  background: url("img/road.jpg") no-repeat center center;
+  width: 60%;
+  height: 100%;
+  border-radius: 3em;
+}
+
+.left__upper {
+  font-size: 2em;
+  margin-top: 1.2em;
+  margin-left: 2em;
+}
+
+.left__medium {
+  margin-top: 8em;
+  margin-left: 4em;
+}
+
+.left__medium-ready {
+  font-size: 3em;
+}
+
+.left__medium-collection {
+  margin-top: 1em;
+}
+
+.left__medium-button {
+  margin-top: 2em;
+  margin-bottom: 10em;
+}
+
+.left__medium-button > button {
+  width: 16em;
+  height: 4em;
+  background: rgb(247, 93, 55);
+  border: none;
+  border-radius: 1em;
+  color: rgb(234, 246, 255);
+  font-weight: 600;
+}
+
+.left__lower {
+  margin-left: 4em;
+  display: flex;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  display: block;
+  width: 16em;
+  height: 0.1em;
+  background: rgba(234, 246, 255, 0.3);
+  margin: 0.5em;
+}
+
+.line::before {
+  content: "";
+  background: rgb(234, 246, 255);
+  width: 33%;
+  height: 100%;
+  display: block;
+}
+
+.arrows {
+  margin-left: 4em;
+}
+
+.arrows > img {
+  filter: invert(100%);
+  opacity: 0.5;
+}
+
+#forward {
+  transform: scale(-1, 1);
+  margin-left: 1.5em;
+  opacity: 1;
+}
+
+.right {
+  width: 40%;
+  color: rgb(6, 3, 3);
+  border-radius: 3em;
+}
+
+.right__upper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.menu__bar {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.menu__bar > div > a > img {
+  width: 2.8em;
+  border-radius: 50%;
+}
+
+.menu {
+  margin-left: 3em;
+}
+
+.menu > img {
+  cursor: pointer;
+  width: 3.2em;
+}
+
+.right__search {
+  display: flex;
+  height: 3em;
+  border-bottom: 2px solid rgba(20, 20, 20, 0.1);
+  margin: 1em 3em;
+}
+
+.right__search > div > img {
+  width: 2em;
+  cursor: pointer;
+}
+
+.right__search > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.right__search > input {
+  margin-left: 0.5em;
+  /* color: rgba(20, 20, 20, 0.2); */
+  width: 100%;
+  font-size: 1.2em;
+  border: none;
+  background: rgb(235, 251, 227);
+}
+
+input::placeholder {
+  color: rgba(20, 20, 20, 0.3);
+}
+
+.right__discover {
+  margin: 1em 3em;
+}
+
+.right__discover-header {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.right__discover-names {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  margin-top: 1.1em;
+  margin-right: 12em;
+}
+
+.points {
+  font-weight: 600;
+  opacity: 0.3;
+}
+
+.active {
+  position: relative;
+  font-weight: 600;
+  opacity: 1;
+  cursor: pointer;
+  color: rgba(247, 93, 55, 0.99);
+}
+
+/* .active::before {
+  content: ".";
+  position: absolute;
+  font-size: 2em;
+  margin-right: 25em;
+} */
+
+.right__discover-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10em;
+}
+
+#kayak {
+  height: 17em;
+  width: 13em;
+  background: url("img/kayak.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  border-radius: 1.2em;
+  color: rgb(234, 246, 255);
+}
+
+#kayak:hover,
+#antelope:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#antelope {
+  height: 17em;
+  width: 13em;
+  background: url("img/antelope.jpg") no-repeat;
+  background-size: cover;
+  background-position: 80% 100%;
+  border-radius: 1.2em;
+  color: rgb(234, 246, 255);
+}
+
+#kayak > div,
+#antelope > div {
+  padding: 12em 1em 1em 1em;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+#kayak > div > span > img,
+#antelope > div > span > img {
+  width: 0.9em;
+  filter: invert(100%);
+  margin-right: 1em;
+}
+
+#kayak > div > span,
+#antelope > div > span {
+  font-weight: 500;
+}
+
+.right__mood {
+  margin: 1em 3em;
+}
+
+.right__mood-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__mood-upper-suggestion {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+#show {
+  opacity: 0.3;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.right__mood-lower {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5em;
+}
+
+.right__mood-lower > div > img {
+  width: 2.2em;
+}
+
+#beach {
+  width: 1.9em;
+}
+
+#moun {
+  width: 2.7em;
+}

@@ -42,35 +42,44 @@ body {
   align-items: center;
 }
 
+.menu > div {
+  cursor: pointer;
+}
+
 .menu > div > img {
   width: 1.7em;
 }
 
 .offer {
   display: flex;
-  position: relative;
 }
 
 .progress {
   width: 5em;
   margin-top: 4em;
   display: flex;
-
-  position: absolute;
-  transform: rotate(90deg);
+  flex-direction: column;
 }
 
-progress {
-  color: white;
-  height: 0.1em;
+#progress {
+  background: rgba(246, 248, 250, 0.4);
+  height: 10em;
   border: none;
-  width: 11em;
+  width: 0.1em;
+  margin-left: 0.8rem;
+}
+
+#progress::after {
+  content: "";
+  background: rgb(246, 249, 250);
+  width: 100%;
+  height: 33%;
+  display: block;
 }
 
 .number {
   margin: 0.4em;
-  transform: rotate(-90deg);
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .offer__block {
@@ -84,6 +93,7 @@ progress {
 
 .video > div > img {
   width: 3em;
+  cursor: pointer;
 }
 
 .video {
@@ -161,6 +171,7 @@ button {
 
 #more {
   margin-bottom: 2em;
+  cursor: pointer;
 }
 
 #slider {
@@ -170,12 +181,13 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-#slider > img {
-  width: 0.5em;
+#dot {
+  width: 0.3em;
   opacity: 0.3;
 }
 
 #dash {
-  font-weight: 700;
-  font-size: 2em;
+  width: 1em;
+
+  filter: invert(100%);
 }
