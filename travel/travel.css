@@ -205,7 +205,7 @@ input::placeholder {
 .right__discover-cards {
   display: flex;
   justify-content: space-between;
-  margin-right: 10em;
+  margin-right: 15%;
 }
 
 #kayak {
