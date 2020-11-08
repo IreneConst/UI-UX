@@ -1,6 +1,6 @@
 let points = document.querySelectorAll(".points");
-let singlePoint = document.createElement("span");
-singlePoint.innerHTML = ".";
+// let singlePoint = document.createElement("span");
+// singlePoint.innerHTML = ".";
 
 function pointActive(point) {
   point.classList.remove("points");

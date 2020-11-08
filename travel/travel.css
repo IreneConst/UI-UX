@@ -195,12 +195,13 @@ input::placeholder {
   color: rgba(247, 93, 55, 0.99);
 }
 
-/* .active::before {
+.active::before {
   content: ".";
   position: absolute;
-  font-size: 2em;
-  margin-right: 25em;
-} */
+  font-size: 3em;
+  left: 50%;
+  bottom: -100%;
+}
 
 .right__discover-cards {
   display: flex;
