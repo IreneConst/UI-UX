@@ -83,6 +83,7 @@ body {
 
 .item {
   border-radius: 15px;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -90,9 +91,9 @@ body {
 }
 
 .item__rating {
-  border-radius: 9px;
+  border-radius: 15px;
   height: 4rem;
-  width: 6rem;
+  width: 7.5rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;

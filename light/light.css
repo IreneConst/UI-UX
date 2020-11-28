@@ -315,7 +315,7 @@ button {
 #price {
   width: 20vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 #hang {
@@ -331,6 +331,7 @@ button {
 #crossed {
   opacity: 0.3;
   text-decoration: line-through;
+  margin-left: 1vh;
 }
 
 #scroll {
