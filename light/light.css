@@ -5,7 +5,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Lato", sans-serif;
-  color: beige;
+  color: white;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 .left {
   overflow: hidden;
-  color: beige;
+  color: white;
   display: flex;
   flex-direction: column;
   background-image: url("./img/left.jpg");
@@ -86,10 +86,10 @@ button {
   width: 20vh;
   height: 4vh;
   font-size: 1.5vh;
-  background: none;
+  background: rgba(234, 246, 255, 0.4);
   border: 0.1vh solid rgb(234, 246, 255);
   border-radius: 3vh;
-  color: rgb(234, 246, 255);
+  color: white;
   font-weight: 600;
 }
 
@@ -99,7 +99,7 @@ button {
 }
 
 .line {
-  border-top: 0.01vh solid oldlace;
+  border-top: 0.01vh solid white;
   width: 23vh;
   height: 0.01vh;
 }
@@ -107,6 +107,8 @@ button {
 .text {
   font-size: 1.5vh;
   margin-left: 3vh;
+  filter: brightness(200%);
+  filter: contrast(200%);
 }
 
 .rotated-bottom {
@@ -147,7 +149,9 @@ button {
 }
 
 .white {
-  font-weight: 700;
+  font-weight: 300;
+  filter: brightness(200%);
+  filter: contrast(200%);
 }
 
 .next {
@@ -184,7 +188,7 @@ button {
   right: -27vh;
   font-weight: 900;
   color: rgba(0, 50, 50, 0.05);
-  -webkit-text-stroke: 0.09vh beige;
+  -webkit-text-stroke: 0.09vh white;
 }
 
 .right {
@@ -259,7 +263,7 @@ button {
   position: relative;
   width: 2vh;
   height: 2vh;
-  background: beige;
+  background: white;
   border-radius: 50%;
   margin: 2vh;
   right: 1vh;
@@ -271,7 +275,7 @@ button {
   height: 7vh;
   opacity: 0.5;
   border-radius: 50%;
-  border: 0.1vh solid beige;
+  border: 0.1vh solid white;
   position: relative;
   top: 15.7vh;
   left: -13vh;
@@ -287,6 +291,8 @@ button {
   font-size: 35vh;
   font-weight: 700;
   margin-left: -10vh;
+  position: relative;
+  z-index: 1;
 }
 
 #four {
