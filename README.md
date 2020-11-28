@@ -2,7 +2,7 @@
 
 - ### Turn on the light in your life!
 
-![Turn on the light in your life!](screenshots/lamp.png)
+![Turn on the light in your life!](screenshots/lamp.jpg)
 
 - ### Relax a bit
 
