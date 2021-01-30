@@ -10,6 +10,7 @@ body {
 .container {
   margin-top: 5em;
   background: url("img/japan_1.jpg") no-repeat center center;
+  background-size: cover;
   width: 1170px;
   border-radius: 1em;
 }
